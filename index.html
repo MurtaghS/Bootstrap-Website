@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Deals</title>
+    <meta name="description" content="The No.1 Place for Games">
+    <meta name="author" content="Sean Murtagh">
+    
+    <!--Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="scripts/html5shiv-printshiv.js"></script>
+    <![endif]-->
+    
+    <link rel="stylesheet" href="css/deals.css">
+    
+</head>
+        
+<body>   
+    <!--CAROUSEL GALLERY AND NAV-->
+    <section>
+        <div class="container carousel-nav">
+            <nav class="navbar navbar-default" id="main-navbar" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#section-new-releases">New Releases</a></li>
+                        <li><a href="#section-top-sellers">Top Sellers</a></li>
+                        <li><a href="#section-highest-rated">Highest Rated</a></li>
+                        <li><a href="#section-recommended">Recommended For You</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!--CAROUSEL SECTION-->
+            <div class="carousel slide" id="carousel-gallery" data-ride="carousel">
+                <div class="carousel-inner">
+                    <ol class="carousel-indicators hidden-xs hidden-sm">
+                        <li data-target="#carousel-gallery" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-gallery" data-slide-to="1"></li>
+                        <li data-target="#carousel-gallery" data-slide-to="2"></li>
+                        <li data-target="#carousel-gallery" data-slide-to="3"></li>
+                        <li data-target="#carousel-gallery" data-slide-to="4"></li>
+                        <li data-target="#carousel-gallery" data-slide-to="5"></li>
+                    </ol>
+                    <div class="item active">
+                        <img src="images/carousel-1.jpg" alt="Carousel Image">
+                        <div class="carousel-caption"><a href="#">Horizon Zero Dawn</a></div>
+                    </div>
+                    <div class="item">
+                        <img src="images/carousel-2.jpg" alt="Carousel Image">
+                        <div class="carousel-caption"><a href="#">NieR New Project</a></div>
+                    </div>
+                    <div class="item">
+                        <img src="images/carousel-3.jpg" alt="Carousel Image">
+                        <div class="carousel-caption"><a href="#">Dark Souls III</a></div>
+                    </div>
+                    <div class="item">
+                        <img src="images/carousel-4.jpg" alt="Carousel Image">
+                        <div class="carousel-caption"><a href="#">Mount & Blade Bannerlord</a></div>
+                    </div>
+                    <div class="item">
+                        <img src="images/carousel-5.jpg" alt="Carousel Image">
+                        <div class="carousel-caption"><a href="#">Xenoblade Chronicles X</a></div>
+                    </div>
+                    <div class="item">
+                        <img src="images/carousel-6.jpg" alt="Carousel Image">
+                        <div class="carousel-caption"><a href="#">Super Mario Maker</a></div>
+                    </div>
+                </div>
+                <div>
+                    <a href="#carousel-gallery" class="left carousel-control" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a href="#carousel-gallery" class="right carousel-control" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--MAIN GAMES AREA-->
+    <div class="container" id="main-area">
+        <!--NEW RELEASES-->
+        <section>
+            <div class="row" id="section-new-releases">
+                <div class"=col-lg-12">
+                    <h2 class="big-title"><span>NEW RELEASES</span></h2>
+                </div>
+                <div class="col-lg-9 col-sm-12 col-xs-6 game-lg">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <a href="#">
+                                <img src="images/new-game-lg-1.jpg" alt="New Game">
+                                <div class="game-name-price-lg">
+                                    <h4 class="game-title">The Witcher 3<span class="game-price">£14.99</span></h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-xs-6 game-xs">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <a href="#">
+                                <img src="images/new-game-xs-1.jpg" alt="New Game">
+                                <div class="game-name-price-xs">
+                                    <h4 class="game-title">Ori and the Blind Forest<span class="game-price">£14.99</span></h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-xs-6 game-xs">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <a href="#">
+                                <img src="images/new-game-xs-2.jpg" alt="New Game">
+                                <div class="game-name-price-xs">
+                                    <h4 class="game-title">Pillars of Eternity<span class="game-price">£14.99</span></h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-xs-6 game-xs">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <a href="#">
+                                <img src="images/new-game-xs-3.jpg" alt="New Game">
+                                <div class="game-name-price-xs">
+                                    <h4 class="game-title">Rocket League<span class="game-price">£14.99</span></h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--TOP SELLERS-->
+        <section>
+            <div class="row" id="section-top-sellers">
+                <div class"=col-lg-12">
+                    <h2 class="big-title"><span>TOP SELLERS</span></h2>
+                </div>
+                <div class="col-xs-6">
+                        <div class="panel panel-default">
+                        <div class="panel-body">
+                            <a href="#">
+                                <img src="images/top-game-md-1.jpg" alt="Top Seller Game">
+                                <div class="game-name-price-md">
+                                    <h4 class="game-title">Bloodborne<span class="game-price">£14.99</span></h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                        <div class="panel panel-default">
+                        <div class="panel-body">
+                            <a href="#">
+                                <img src="images/top-game-md-2.jpg" alt="Top Seller Game">
+                                <div class="game-name-price-md">
+                                    <h4 class="game-title">Devil May Cry 4: Special Edition<span class="game-price">£14.99</span></h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                        <div class="panel panel-default">
+                        <div class="panel-body">
+                            <a href="#">
+                                <img src="images/top-game-md-3.jpg" alt="Top Seller Game">
+                                <div class="game-name-price-md">
+                                    <h4 class="game-title">Dark Souls II<span class="game-price">£14.99</span></h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                        <div class="panel panel-default">
+                        <div class="panel-body">
+                            <a href="#">
+                                <img src="images/top-game-md-4.jpg" alt="Top Seller Game">
+                                <div class="game-name-price-md">
+                                    <h4 class="game-title">Grim Dawn<span class="game-price">£14.99</span></h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--HIGHEST RATED-->
+        <section>
+            <div class="row">
+                <div class="col-sm-4 col-xs-10 col-xs-offset-1" id="section-highest-rated">
+                    <h2 class="bottom-headings">Highest Rated</h2>
+                    <ul>
+                        <li><a href="#">Dark Souls</a><span class="rating">4.9</span></li>
+                        <li><a href="#">Spelunky</a><span class="rating">4.7</span></li>
+                        <li><a href="#">Wasteland 2</a><span class="rating">4.6</span></li>
+                        <li><a href="#">Valkyria Chronicles</a><span class="rating">4.6</span></li>
+                        <li><a href="#">Cirties Skylines</a><span class="rating">4.4</span></li>
+                        <li><a href="#">Euro Truck Simulator 2</a><span class="rating">4.3</span></li>
+                        <!--
+                        <li><a href="#">Spelunky<span>4.8</span></a></li>
+                        <li><a href="#">Wasteland 2<span>4.5</span></a></li>
+                        <li><a href="#">Far Cry 3: Blood Dragon<span>4.4</span></a></li>
+                        <li><a href="#">Cities Skylines<span>4.2</span></a></li>
+                        <li><a href="#">Euro Truck Simulator 2<span>4.2</span></a></li>-->
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-xs-10 col-sm-offset-2 col-xs-offset-1" id="section-highest-rated">
+                    <h2 class="bottom-headings">Recommended For You!</h2>
+                    <ul>
+                        <li><a href="#">Dark Souls</a><span class="rating">4.9</span></li>
+                        <li><a href="#">Dark Souls</a><span class="rating">4.9</span></li>
+                        <li><a href="#">Dark Souls</a><span class="rating">4.9</span></li>
+                        <li><a href="#">Dark Souls</a><span class="rating">4.9</span></li>
+                        <li><a href="#">Dark Souls</a><span class="rating">4.9</span></li>
+                        <li><a href="#">Dark Souls</a><span class="rating">4.9</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!--RECOMMENDED FOR YOU-->
+        <section>
+            
+        </section>
+    
+    </div> <!-- END OF CONTAINER
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
